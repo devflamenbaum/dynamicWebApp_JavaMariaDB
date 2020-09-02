@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.tabsContainer{
+    width: 100%;
+}
+
+.tabsContainer .buttonContainer{
+    height: 8vh;
+}
+
+.tabsContainer .buttonContainer button{
+    width: 33.333333%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.tabsContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+
+.tabsContainer .tabPanel{
+    height: 90%;
+    background-color: grey;
+    text-align: center;
+    padding-top: 50px;
+    display: none;
+}

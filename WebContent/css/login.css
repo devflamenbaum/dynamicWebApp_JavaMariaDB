@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/gym-climbing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-section{
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: rgb(226, 226, 226);
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 4px #000;
+}
+
+.user-img{
+    margin-top: -100px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-group input{
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+}
+
+.btn{
+    width:40%;
+    background-color: #6d5340 !important;
+    border: 1px solid #625148 !important;
+    font-size: 19px;
+    margin: 5px 0 25px;
+    border-radius: 5px;
+    color: rgb(226, 226, 226);;
+}
+
+.btn:hover, .btn:focus{
+    background-color: rgb(226, 226, 226) !important;
+    border: 1px solid #625148 !important;
+    color: #6d5340 !important;
+}
+
+.forgot{
+    padding: 5px 0 25px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #6d5340 !important;
+}
+
+.forgot a:hover{
+    color: #000 !important;
+}
